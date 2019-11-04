@@ -43,8 +43,9 @@ var busqueda = lenguajes.find(function(lenguaje){
 }); // Callback  O también:
 */
 
-var precios = [10, 20, 50, 80, 12];
 //var busqueda = lenguajes.findIndex(lenguaje => lenguaje == "PHP"); // find(elemento) encuentra elemento & findIndex(elemento) su indice
+
+var precios = [10, 20, 50, 80, 12];
 
 var busqueda = precios.some(precio => precio > 80); // Buscar cumpliendo una condicion concreta
 
